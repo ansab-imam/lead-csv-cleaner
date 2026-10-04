@@ -1,0 +1,43 @@
+{
+  "name": "lead-csv-cleaner",
+  "version": "1.0.0",
+  "description": "Clean, normalise and de-duplicate messy lead/contact CSV exports before importing them into a CRM.",
+  "type": "module",
+  "bin": {
+    "lead-csv-clean": "bin/lead-csv-clean.js"
+  },
+  "exports": "./src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "csv",
+    "leads",
+    "crm",
+    "contacts",
+    "dedupe",
+    "data-cleaning",
+    "cli",
+    "email",
+    "phone"
+  ],
+  "author": "Socialist Fox",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansab-imam/lead-csv-cleaner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ansab-imam/lead-csv-cleaner/issues"
+  },
+  "homepage": "https://github.com/ansab-imam/lead-csv-cleaner#readme"
+}
